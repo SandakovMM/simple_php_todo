@@ -1,7 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = ""; // Update with your MariaDB password
+require_once './credentials.php';
 $dbname = "todo";
 
 // Create connection
