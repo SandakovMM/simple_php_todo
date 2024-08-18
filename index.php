@@ -1,7 +1,6 @@
 <?php
 $servername = "localhost";
 require_once './credentials.php';
-$dbname = "todo";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
