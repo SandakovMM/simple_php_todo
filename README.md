@@ -10,4 +10,5 @@ $dbname = "todo"; // Update with your MariaDB database name
 $username = "username"; // Update with your MariaDB username
 $password = "password"; // Update with your MariaDB password
 ?>
+```
 3. Have fun!
