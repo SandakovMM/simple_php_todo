@@ -3,7 +3,7 @@ $servername = "localhost";
 require_once './credentials.php';
 
 // Create connection
-$conn = new mysqli($servername, username, password, dbname);
+$conn = new mysqli($servername, USERNAME, PASSWORD, DBNAME);
 
 // Check connection
 if ($conn->connect_error) {
