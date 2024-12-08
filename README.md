@@ -3,13 +3,13 @@ It's a simple php todo list application
 
 ## Installation
 1. Clone the repository
-2. Create a table tasks into your database. It should contains: primery index 'id', string field 'task' and intager field 'status'
-3. Create file credentials.php in the root directory and add the following code:
+2. Create a table `tasks` in your database. It should contain: primary index `id`, string field `task`, and integer field `status`
+3. Create file `credentials.php` in the root directory and add the following content, filling in the values:
 ```php
 <?php
-$dbname = "todo"; // Update with your MariaDB database name
-$username = "username"; // Update with your MariaDB username
-$password = "password"; // Update with your MariaDB password
-?>
+
+$dbname = "";    // Update with your MariaDB database name
+$username = "";  // Update with your MariaDB username
+$password = "";  // Update with your MariaDB password
 ```
-3. Have fun!
+4. Have fun!
