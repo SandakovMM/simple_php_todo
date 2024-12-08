@@ -8,8 +8,8 @@ It's a simple php todo list application
 ```php
 <?php
 
-$dbname = "";    // Update with your MariaDB database name
-$username = "";  // Update with your MariaDB username
-$password = "";  // Update with your MariaDB password
+define("DBNAME", "database_name"); // Update with your MariaDB database name
+define("USERNAME", "username") // Update with your MariaDB username
+define("PASSWORD", "database_password") // Update with your MariaDB password
 ```
 4. Have fun!
